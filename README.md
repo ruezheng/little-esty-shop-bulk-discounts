@@ -38,5 +38,5 @@ This project requires Ruby 2.7.4.
 1. [Evaluation](./doc/evaluation.md)
 
 ## Database Diagram
-![Screen Shot 2022-05-28 at 9 21 46 AM](https://user-images.githubusercontent.com/99001315/170831788-29184f94-9549-4723-aecb-9ec3345331ce.png)
+![Screen Shot 2022-05-28 at 9 16 18 AM](https://user-images.githubusercontent.com/99001315/172927504-76b66d57-ac6c-4c78-a58a-5eb4a1bbcfa4.png)
 
