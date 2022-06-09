@@ -40,5 +40,6 @@ This project requires Ruby 2.7.4.
 
 ## Database Diagram
 
-<img width="1063" alt="Screen Shot 2022-06-09 at 2 52 14 PM" src="https://user-images.githubusercontent.com/99001315/172942292-69a172b4-8612-4f57-a9f4-179d81c2461b.png">
+<img width="1098" alt="Screen Shot 2022-06-09 at 2 53 30 PM" src="https://user-images.githubusercontent.com/99001315/172942496-c27453d5-1d30-4fea-a472-316d3c90ef63.png">
+
 
