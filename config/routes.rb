@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  get '/', to: 'welcome#index'
   get '/merchants/:merchant_id/dashboard', to: 'merchants#show'
 
   resources :merchants, except: [:show] do
