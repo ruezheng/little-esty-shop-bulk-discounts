@@ -1,4 +1,4 @@
-# <center>[Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/admin)</center>
+<p style="text-align: center;">[Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/admin)</p>
 
 ## Deloyed on Heroku
 [Admin Dashboard](https://little-esty-shop-rz.herokuapp.com/admin)
