@@ -2,6 +2,7 @@
 
 ## Deloyed on Heroku
 [Admin Dashboard](https://little-esty-shop-rz.herokuapp.com/admin)
+
 [Merchant Dashboard](https://little-esty-shop-rz.herokuapp.com/merchants/1/dashboard)
 
 ## Background and Description
