@@ -1,4 +1,4 @@
-# [Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/admin)
+# [Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/merchants/1/dashboard)
 
 ## Deloyed on Heroku
 [Admin Dashboard](https://little-esty-shop-rz.herokuapp.com/admin)
