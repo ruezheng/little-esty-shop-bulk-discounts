@@ -34,9 +34,9 @@ This project requires Ruby 2.7.4.
 
 1. [Database Setup](./doc/db_setup.md)
 1. [User Stories](./doc/user_stories.md)
+1. [Bulk Discounts](https://backend.turing.edu/module2/projects/bulk_discounts)
 1. [Extensions](./doc/extensions.md)
 1. [Evaluation](./doc/evaluation.md)
-1. [Bulk Discounts](https://backend.turing.edu/module2/projects/bulk_discounts)
 
 ## Database Diagram
 
