@@ -5,6 +5,8 @@
 
 [Merchant Dashboard](https://little-esty-shop-rz.herokuapp.com/merchants/1/dashboard)
 
+[Bulk Discounts](https://little-esty-shop-rz.herokuapp.com/merchants/1/discounts)
+
 ## Background and Description
 
 "Little Esty Shop" is a group project that requires students to build a fictitious e-commerce platform where merchants and admins can manage inventory and fulfill customer invoices.
