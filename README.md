@@ -1,5 +1,9 @@
 # Little Esty Shop
 
+## Deloyed on Heroku
+
+[Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/admin/merchants)
+
 ## Background and Description
 
 "Little Esty Shop" is a group project that requires students to build a fictitious e-commerce platform where merchants and admins can manage inventory and fulfill customer invoices.
