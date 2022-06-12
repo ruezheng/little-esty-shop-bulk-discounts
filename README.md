@@ -1,8 +1,6 @@
-# Little Esty Shop
+# [Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/admin/merchants)
 
 ## Deloyed on Heroku
-
-[Little Esty Shop](https://little-esty-shop-rz.herokuapp.com/admin/merchants)
 
 ## Background and Description
 
