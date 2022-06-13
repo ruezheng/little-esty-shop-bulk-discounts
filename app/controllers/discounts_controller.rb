@@ -3,7 +3,7 @@ class DiscountsController < ApplicationController
   before_action :find_discount, only: [:show, :edit, :update]
 
   def index
-    @discounts = Discount.all
+    @discounts = @merchant.discounts
     @holidays = HolidayFacade.get_holidays
   end
 

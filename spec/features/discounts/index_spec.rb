@@ -80,4 +80,10 @@ RSpec.describe "merchant's bulk discounts index" do
 #
 # I can leave the information as is, or modify it before saving.
 # I should be redirected to the discounts index page where I see the newly created discount added to the list of discounts.
+
+  # it "text", :vcr do
+  #   visit "/merchants/#{merchant1.id}/discounts"
+  #
+  #
+  # end
 end

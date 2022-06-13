@@ -15,5 +15,4 @@ class ApplicationController < ActionController::Base
   def find_discount
     @discount = Discount.find(params[:id])
   end
-
 end
