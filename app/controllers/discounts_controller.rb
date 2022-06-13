@@ -1,6 +1,3 @@
-# name all facades get_...
-# name all services find_...
-
 class DiscountsController < ApplicationController
   before_action :find_merchant, only: [:index, :show, :new, :create, :edit, :update, :destroy]
   before_action :find_discount, only: [:show, :edit, :update]
@@ -39,3 +36,6 @@ class DiscountsController < ApplicationController
     params.permit(:percentage, :quantity_threshold)
   end
 end
+
+# name all facades get_...
+# name all services find_...
