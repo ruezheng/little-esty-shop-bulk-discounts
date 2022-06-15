@@ -13,5 +13,67 @@ RSpec.describe "merchant's new discount form" do
     click_button "Submit"
 
     expect(current_path).to eq(merchant_discounts_path(merchant1))
+    expect(page).to have_content("75% Discount")
+    expect(page).to have_content("Quantity: 50")
+  end
+
+  # Create a Holiday Discount
+  #
+  # As a merchant,
+  # when I visit the discounts index page,
+  # In the Holiday Discounts section, I see a `create discount` button next to each of the 3 upcoming holidays.
+  # When I click on the button I am taken to a new discount form that has the form fields auto populated with the following:
+  #
+  # Discount name: <name of holiday> discount
+  # Percentage Discount: 30
+  # Quantity Threshold: 2
+  #
+  # I can leave the information as is, or modify it before saving.
+  # I should be redirected to the discounts index page where I see the newly created discount added to the list of discounts.
+
+  it "can click a button next to each holiday to submit an autopolulated form to create a new holiday discount", :vcr do
+    holidays = HolidayFacade.get_holidays
+
+    visit "/merchants/#{merchant1.id}/discounts"
+
+    holidays.each do |holiday|
+      within "#holiday-#{holiday.id}" do
+        expect(page).to_not have_content("#{holiday.name} Discount")
+        expect(page).to have_content(holiday.name)
+        click_button "Create Holiday Discount"
+      end
+      expect(current_path).to eq(new_merchant_discount_path)
+
+      click_button "Submit"
+
+      expect(current_path).to eq(merchant_discounts_path(merchant1))
+      expect(page).to have_content("#{holiday.name} Discount")
+      expect(page).to have_content("30% Discount")
+      expect(page).to have_content("Quantity: 2")
+    end
+  end
+
+  it "can click a button next to each holiday to submit an autopolulated form to create a new holiday discount", :vcr do
+    holidays = HolidayFacade.get_holidays
+
+    visit "/merchants/#{merchant1.id}/discounts"
+
+    holidays.each do |holiday|
+      within "#holiday-#{holiday.id}" do
+        expect(page).to_not have_content("#{holiday.name} Discount")
+        expect(page).to have_content(holiday.name)
+        click_button "Create Holiday Discount"
+      end
+      expect(current_path).to eq(new_merchant_discount_path)
+
+      fill_in :percentage, with: "75"
+      fill_in :quantity_threshold, with: "5"
+      click_button "Submit"
+
+      expect(current_path).to eq(merchant_discounts_path(merchant1))
+      expect(page).to have_content("#{holiday.name} Discount")
+      expect(page).to have_content("75% Discount")
+      expect(page).to have_content("Quantity: 5")
+    end
   end
 end

@@ -81,9 +81,17 @@ RSpec.describe "merchant's bulk discounts index" do
 # I can leave the information as is, or modify it before saving.
 # I should be redirected to the discounts index page where I see the newly created discount added to the list of discounts.
 
-  # it "text", :vcr do
-  #   visit "/merchants/#{merchant1.id}/discounts"
-  #
-  #
-  # end
+  it "next to each holiday I can see a button to create a new discount for that holiday", :vcr do
+    holidays = HolidayFacade.get_holidays
+
+    visit "/merchants/#{merchant1.id}/discounts"
+
+    holidays.each do |holiday|
+      within "#holiday-#{holiday.id}" do
+        expect(page).to have_content(holiday.name)
+        click_button "Create Holiday Discount"
+      end
+      expect(current_path).to eq(new_merchant_discount_path)
+    end
+  end
 end
