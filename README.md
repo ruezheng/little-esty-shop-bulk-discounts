@@ -16,25 +16,25 @@ A simple and user friendly ficticious e-commerce platform built with Ruby on Rai
 </div>
 
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a normalized database schema and defining model relationships<br>
-⭐     Utilize advanced routing techniques including namespacing to organize and group like functionality together<br>
-⭐     Utilize advanced active record techniques to perform complex database queries<br>
-⭐     Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
-⭐     Create a project with a separate front-end and back-end<br>
-⭐     Use Rails to create web pages that allow users to CRUD resources<br>
-⭐     Use an external OAuth provider to authenticate users<br>
-⭐     Build APIs that return JSON responses<br>
-⭐     Consume two or more external APIs which require authentication<br>
-⭐     Create instance and class methods on a Rails model that use ActiveRecord methods and helpers<br>
-⭐     Write model and feature tests that fully cover data logic and potential user behavior<br>
-⭐     Implement a self-referential relationship in ActiveRecord<br>
-⭐     Utilize Continuous Integration via CircleCI<br>
-⭐     Deploy to Heroku<br>
-⭐     Implement a production-quality user interface using Bootstrap or other common CSS styling framework<br>
-⭐     Implement agile project management via Kanban boards, daily stand-ups, and team retros<br>
-⭐     Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews<br>
-⭐     Organize and refactor code to be more maintainable<br>
-⭐     Apply RuboCop’s style guide for code quality<br>
-⭐     Write thorough, understandable documentation<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality together<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced active record techniques to perform complex database queries<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Create a project with a separate front-end and back-end<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Use Rails to create web pages that allow users to CRUD resources<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp;  Use an external OAuth provider to authenticate users<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Build APIs that return JSON responses<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Consume two or more external APIs which require authentication<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Create instance and class methods on a Rails model that use ActiveRecord methods and helpers<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write model and feature tests that fully cover data logic and potential user behavior<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Implement a self-referential relationship in ActiveRecord<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize Continuous Integration via CircleCI<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Implement a production-quality user interface using Bootstrap or other common CSS styling framework<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Implement agile project management via Kanban boards, daily stand-ups, and team retros<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Organize and refactor code to be more maintainable<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Apply RuboCop’s style guide for code quality<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write thorough, understandable documentation<br>
 
 <div align="center">
 
