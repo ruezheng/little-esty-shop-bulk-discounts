@@ -5,7 +5,7 @@
 A simple and user friendly ficticious e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
    
 
-## Deloyed on Heroku
+## Deloyed to Heroku
 [Admin Dashboard](https://little-esty-shop-rz.herokuapp.com/admin)
 
 [Merchant Dashboard](https://little-esty-shop-rz.herokuapp.com/merchants/1/dashboard)
