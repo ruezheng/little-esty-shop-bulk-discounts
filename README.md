@@ -3,8 +3,7 @@
 # Little Esty Shop
 
 A simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts.
-
-</div>
+   
 
 ## Deloyed on Heroku
 [Admin Dashboard](https://little-esty-shop-rz.herokuapp.com/admin)
