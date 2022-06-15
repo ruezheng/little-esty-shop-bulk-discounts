@@ -1,7 +1,9 @@
 <div align="center">
 
 # Little Esty Shop
-   
+
+A simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts.
+
 </div>
 
 ## Deloyed on Heroku
@@ -53,5 +55,5 @@ This project requires Ruby 2.7.4.
 
 <img width="1121" alt="Screen Shot 2022-06-12 at 4 53 03 PM" src="https://user-images.githubusercontent.com/99001315/173256799-42408dcb-aff3-4c13-87bf-a91c7e163e16.png">
 
-
+</div>
 
