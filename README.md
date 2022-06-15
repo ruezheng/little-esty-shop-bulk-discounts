@@ -2,15 +2,6 @@
 
 # Little Esty Shop
    
-![Version][version-badge]
-[![Contributors][contributors-badge]][contributors-url]
-[![Forks][forks-badge]][forks-url]
-[![Stargazers][stars-badge]][stars-url]
-[![Issues][issues-badge]][issues-url]
-[![Ruby Style Guide][rubocop-badge]][rubocop-url]
-![Build][build-badge]
-[![SpotMe][front-end-badge]][front-end-url]
-   
 </div>
 
 ## Deloyed on Heroku
