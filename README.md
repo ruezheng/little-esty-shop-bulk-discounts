@@ -2,7 +2,7 @@
 
 # Little Esty Shop
 
-A simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
+A simple and user friendly ficticious e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
    
 
 ## Deloyed on Heroku
@@ -11,34 +11,30 @@ A simple and user friendly e-commerce platform built with Ruby on Rails that all
 [Merchant Dashboard](https://little-esty-shop-rz.herokuapp.com/merchants/1/dashboard)
 
 [Bulk Discounts](https://little-esty-shop-rz.herokuapp.com/merchants/1/discounts)
-
-## Background and Description
-
-"Little Esty Shop" is a group project that requires students to build a fictitious e-commerce platform where merchants and admins can manage inventory and fulfill customer invoices.
-
-</div>
  
 ## Learning Goals
+</div>
+
 ⭐     Practice designing a normalized database schema and defining model relationships
 ⭐     Utilize advanced routing techniques including namespacing to organize and group like functionality together.
 ⭐     Utilize advanced active record techniques to perform complex database queries
 ⭐     Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code
-    ⭐     Create a project with a separate front-end and back-end
-    ⭐     Use Rails to create web pages that allow users to CRUD resources
-    ⭐     Use an external OAuth provider to authenticate users
-    ⭐     Build APIs that return JSON responses
-    ⭐     Consume two or more external APIs which require authentication
-    ⭐     Create instance and class methods on a Rails model that use ActiveRecord methods and helpers
-    ⭐     Write model and feature tests that fully cover data logic and potential user behavior
-    ⭐     Implement a self-referential relationship in ActiveRecord
-    ⭐     Utilize Continuous Integration via CircleCI
-    ⭐     Deploy to Heroku
-    ⭐     Implement a production-quality user interface using Bootstrap or other common CSS styling framework
-    ⭐     Implement agile project management via Kanban boards, daily stand-ups, and team retros
-    ⭐     Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews
-    ⭐     Organize and refactor code to be more maintainable
-    ⭐     Apply RuboCop’s style guide for code quality
-    ⭐     Write thorough, understandable documentation
+⭐     Create a project with a separate front-end and back-end
+⭐     Use Rails to create web pages that allow users to CRUD resources
+⭐     Use an external OAuth provider to authenticate users
+⭐     Build APIs that return JSON responses
+⭐     Consume two or more external APIs which require authentication
+⭐     Create instance and class methods on a Rails model that use ActiveRecord methods and helpers
+⭐     Write model and feature tests that fully cover data logic and potential user behavior
+⭐     Implement a self-referential relationship in ActiveRecord
+⭐     Utilize Continuous Integration via CircleCI
+⭐     Deploy to Heroku
+⭐     Implement a production-quality user interface using Bootstrap or other common CSS styling framework
+⭐     Implement agile project management via Kanban boards, daily stand-ups, and team retros
+⭐     Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews
+⭐     Organize and refactor code to be more maintainable
+⭐     Apply RuboCop’s style guide for code quality
+⭐     Write thorough, understandable documentation
 
 <div align="center">
 
