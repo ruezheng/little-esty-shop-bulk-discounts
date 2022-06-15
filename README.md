@@ -15,7 +15,7 @@ A simple and user friendly ficticious e-commerce platform built with Ruby on Rai
 ## Learning Goals
 </div>
 
-⭐     Practice designing a normalized database schema and defining model relationships
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a normalized database schema and defining model relationships
 ⭐     Utilize advanced routing techniques including namespacing to organize and group like functionality together.
 ⭐     Utilize advanced active record techniques to perform complex database queries
 ⭐     Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code
