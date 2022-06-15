@@ -2,19 +2,14 @@
 
 # Little Esty Shop
 
-A simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts.
+A simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, manage inventory, and view sales data.
    
-
-## Deloyed on Heroku
+## Deloyed to Heroku
 [Admin Dashboard](https://little-esty-shop-rz.herokuapp.com/admin)
 
 [Merchant Dashboard](https://little-esty-shop-rz.herokuapp.com/merchants/1/dashboard)
 
 [Bulk Discounts](https://little-esty-shop-rz.herokuapp.com/merchants/1/discounts)
-
-## Background and Description
-
-"Little Esty Shop" is a group project that requires students to build a fictitious e-commerce platform where merchants and admins can manage inventory and fulfill customer invoices.
 
 ## Learning Goals
 - Practice designing a normalized database schema and defining model relationships
@@ -44,11 +39,11 @@ This project requires Ruby 2.7.4.
 
 ## Phases
 
-1. [Database Setup](./doc/db_setup.md)
-1. [User Stories](./doc/user_stories.md)
-1. [Extensions](./doc/extensions.md)
-1. [Evaluation](./doc/evaluation.md)
-1. [Bulk Discounts](https://backend.turing.edu/module2/projects/bulk_discounts)
+[Database Setup](./doc/db_setup.md)
+[User Stories](./doc/user_stories.md)
+[Extensions](./doc/extensions.md)
+[Evaluation](./doc/evaluation.md)
+[Bulk Discounts](https://backend.turing.edu/module2/projects/bulk_discounts)
 
 ## Database Diagram
 
