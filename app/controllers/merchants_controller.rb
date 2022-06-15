@@ -1,6 +1,5 @@
 class MerchantsController < ApplicationController
   before_action :find_merchant
 
-  def show
-  end
+  def show; end
 end

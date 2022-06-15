@@ -23,6 +23,7 @@
 
       <% if invoice_item.applied_discount != nil %>
         <%= link_to "#{invoice_item.applied_discount.percentage}% Discount Applied", merchant_discount_path(invoice_item.applied_discount.merchant_id, invoice_item.applied_discount.id) %>
+        <%# # TODO: hand roll routes %>
       <% end %>
 
       <p>Invoice Item Status: <%= invoice_item.status.titleize %></p>
@@ -35,5 +36,5 @@
     <hr>
     <% end %>
   </div>
-  
+
 </div>

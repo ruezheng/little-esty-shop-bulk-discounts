@@ -16,4 +16,14 @@ class InvoiceItem < ApplicationRecord
     qualifying_discounts = discounts.map { |discount| discount if discount.quantity_threshold <= self.quantity }
     qualifying_discounts.compact.max_by(&:percentage)
   end
+
+  # def max_discount
+  #   discounts
+  #   .where('quantity_threshold <= ?', "#{self.quantity}")
+  #   .order(percentage_discount: :desc).first
+  # end
+
+  # add method that finds largest discount
+  # move disocunted_revenue
+
 end

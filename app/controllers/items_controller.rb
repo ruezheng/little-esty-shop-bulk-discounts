@@ -6,21 +6,18 @@ class ItemsController < ApplicationController
     @items = @merchant.items
   end
 
-  def show
-  end
+  def show; end
 
-  def edit
-  end
+  def edit; end
 
-  def new
-  end
+  def new; end
 
   def create
     @merchant.items.create!(item_params)
     redirect_to merchant_items_path(@merchant)
   end
 
-  def update
+  def update # refactor
     if params[:status]
       @item.update(item_status_params)
       redirect_to merchant_items_path
