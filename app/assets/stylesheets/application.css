@@ -13,13 +13,9 @@
  *= require_tree .
  *= require_self
  */
- 
+
 .padding-left {
   padding-left: 20px;
-}
-
-.center {
-  text-align: center;
 }
 
 /* Create two equal columns that floats next to each other */

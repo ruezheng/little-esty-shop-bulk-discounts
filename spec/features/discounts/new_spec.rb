@@ -17,7 +17,7 @@ RSpec.describe "merchant's new discount form" do
     expect(page).to have_content("Quantity: 50")
   end
 
-  xit "can click a button next to each holiday to submit an autopolulated form to create a new holiday discount", :vcr do
+  it "can click a button next to each holiday to submit an autopolulated form to create a new holiday discount", :vcr do
     holidays = HolidayFacade.get_holidays
 
     visit "/merchants/#{merchant1.id}/discounts"
