@@ -15,26 +15,26 @@ A simple and user friendly ficticious e-commerce platform built with Ruby on Rai
 ## Learning Goals
 </div>
 
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a normalized database schema and defining model relationships
-⭐     Utilize advanced routing techniques including namespacing to organize and group like functionality together.
-⭐     Utilize advanced active record techniques to perform complex database queries
-⭐     Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code
-⭐     Create a project with a separate front-end and back-end
-⭐     Use Rails to create web pages that allow users to CRUD resources
-⭐     Use an external OAuth provider to authenticate users
-⭐     Build APIs that return JSON responses
-⭐     Consume two or more external APIs which require authentication
-⭐     Create instance and class methods on a Rails model that use ActiveRecord methods and helpers
-⭐     Write model and feature tests that fully cover data logic and potential user behavior
-⭐     Implement a self-referential relationship in ActiveRecord
-⭐     Utilize Continuous Integration via CircleCI
-⭐     Deploy to Heroku
-⭐     Implement a production-quality user interface using Bootstrap or other common CSS styling framework
-⭐     Implement agile project management via Kanban boards, daily stand-ups, and team retros
-⭐     Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews
-⭐     Organize and refactor code to be more maintainable
-⭐     Apply RuboCop’s style guide for code quality
-⭐     Write thorough, understandable documentation
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a normalized database schema and defining model relationships<br>
+⭐     Utilize advanced routing techniques including namespacing to organize and group like functionality together<br>
+⭐     Utilize advanced active record techniques to perform complex database queries<br>
+⭐     Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
+⭐     Create a project with a separate front-end and back-end<br>
+⭐     Use Rails to create web pages that allow users to CRUD resources<br>
+⭐     Use an external OAuth provider to authenticate users<br>
+⭐     Build APIs that return JSON responses<br>
+⭐     Consume two or more external APIs which require authentication<br>
+⭐     Create instance and class methods on a Rails model that use ActiveRecord methods and helpers<br>
+⭐     Write model and feature tests that fully cover data logic and potential user behavior<br>
+⭐     Implement a self-referential relationship in ActiveRecord<br>
+⭐     Utilize Continuous Integration via CircleCI<br>
+⭐     Deploy to Heroku<br>
+⭐     Implement a production-quality user interface using Bootstrap or other common CSS styling framework<br>
+⭐     Implement agile project management via Kanban boards, daily stand-ups, and team retros<br>
+⭐     Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews<br>
+⭐     Organize and refactor code to be more maintainable<br>
+⭐     Apply RuboCop’s style guide for code quality<br>
+⭐     Write thorough, understandable documentation<br>
 
 <div align="center">
 
