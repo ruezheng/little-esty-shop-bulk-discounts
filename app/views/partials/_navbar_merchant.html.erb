@@ -5,10 +5,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href=<%= "/" %>>Welcome</a>
+      <a class="nav-item nav-link" href=<%= "/" %>>Welcome Page</a>
       <a class="nav-item nav-link" href=<%= merchant_items_path(@merchant) %>>Items</a>
       <a class="nav-item nav-link" href=<%= merchant_invoices_path(@merchant) %>>Invoices</a>
-      <a class="nav-item nav-link" href=<%= "/merchants/#{@merchant.id}/discounts" %>>Bulk Discounts</a>
+      <a class="nav-item nav-link" href=<%= "/merchants/#{@merchant.id}/discounts" %>>Discounts</a>
     </div>
   </div>
 </nav>

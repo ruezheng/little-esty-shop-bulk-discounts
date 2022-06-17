@@ -28,14 +28,15 @@ RSpec.describe "merchant's new discount form" do
     holidays.each do |holiday|
       within "#holiday-#{holiday.name}" do
         expect(page).to have_content(holiday.name)
-        expect(page).to_not have_content("#{holiday.name} | #{discount3.percentage}% Holiday Discount")
-        click_link "Create a Holiday Discount"
+        expect(page).to_not have_content("#{discount3.percentage}% Holiday Discount")
+        click_link "Create Holiday Discount"
       end
       expect(current_path).to eq(new_merchant_discount_path(merchant1.id))
 
       click_button "Submit"
       expect(current_path).to eq(merchant_discounts_path(merchant1))
-      expect(page).to have_content("#{holiday.name} | #{discount3.percentage}% Holiday Discount")
+      expect(page).to have_content("#{discount3.percentage}% Holiday Discount")
+      expect(page).to have_content("#{holiday.name}")
       expect(page).to have_content("Quantity: 2")
     end
   end
@@ -48,8 +49,8 @@ RSpec.describe "merchant's new discount form" do
 
     holidays.each do |holiday|
       within "#holiday-#{holiday.name}" do
-        expect(page).to_not have_content("#{holiday.name} | #{discount4.percentage}% Holiday Discount")
-        click_link "Create a Holiday Discount"
+        expect(page).to_not have_content("#{discount4.percentage}% Holiday Discount")
+        click_link "Create Holiday Discount"
       end
       expect(current_path).to eq(new_merchant_discount_path(merchant1.id))
 
@@ -58,7 +59,8 @@ RSpec.describe "merchant's new discount form" do
       click_button "Submit"
 
       expect(current_path).to eq(merchant_discounts_path(merchant1))
-      expect(page).to have_content("#{holiday.name} | #{discount4.percentage}% Holiday Discount")
+      expect(page).to have_content("#{discount4.percentage}% Holiday Discount")
+      expect(page).to have_content("#{holiday.name}")
       expect(page).to have_content("Quantity: 5")
     end
   end
