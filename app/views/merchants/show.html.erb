@@ -5,17 +5,16 @@
   <div class="row">
     <div class="column";>
       <div class= "items_ready_to_ship">
-        <h2>Items Ready to Ship:</h2>
-        <hr><br>
+        <h2>Items Ready to Ship:</h2><hr><br>
         <ol>
           <% @merchant.items_ready_to_ship.each do |item| %>
-          <div id="item-<%= item.id %>">
-            <li>
-              <h5><%= "#{item.name}" %></h5>
-              <h6><%= link_to "#{item.id}", merchant_item_path(@merchant, item.id) %></h6>
-              <p><%= item.created_at.strftime("Invoice Date: %A, %B %d, %Y") %></p>
-            </li>
-          </div>
+            <div id="item-<%= item.id %>">
+              <li>
+                <h5><%= "#{item.name}" %></h5>
+                <h6><%= link_to "#{item.id}", merchant_item_path(@merchant, item.id) %></h6>
+                <p><%= item.created_at.strftime("Invoice Date: %A, %B %d, %Y") %></p>
+              </li>
+            </div>
           <% end %>
         </ol>
       </div>
@@ -23,8 +22,7 @@
 
     <div class="column";>
       <div class= "favorite_customers">
-        <h2>Top 5 Favorite Customers:</h2>
-        <hr><br>
+        <h2>Top 5 Favorite Customers:</h2><br>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
             <h5 class="lead "><strong>Name</strong></h5>
