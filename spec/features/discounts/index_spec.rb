@@ -66,18 +66,4 @@ RSpec.describe "merchant's bulk discounts index" do
     expect(page).to_not have_content('20% Discount')
     expect(page).to_not have_content('Quantity: 10')
   end
-
-  xit "next to each holiday I can see a button to create a new discount for that holiday", :vcr do
-    holidays = HolidayFacade.get_holidays
-
-    visit "/merchants/#{merchant1.id}/discounts"
-
-    holidays.each do |holiday|
-      within "#holiday-#{holiday.id}" do
-        expect(page).to have_content(holiday.name)
-        click_button "Create Holiday Discount"
-      end
-      expect(current_path).to eq(new_merchant_discount_path)
-    end
-  end
 end
