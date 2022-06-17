@@ -1,14 +1,13 @@
 <%= render 'partials/navbar_admin' %><br>
 
 <div class="container">
-
   <h1 align="center";">Invoice #<%= @invoice.id %></h1>
   <b>Status:</b> <%= @invoice.status.titleize %><br>
   <b>Created at:</b> <%= @invoice.created_at.strftime("%A, %B %d, %Y") %><br>
   <div class="customer">
     <b>Customer Name:</b> <%= @invoice.invoice_customer %><br><br>
   </div>
-  
+
   <h5>Total Revenue: <%= number_to_currency(@invoice.total_revenue) %></h5>
   <h5>Total Discounted Revenue: <%= number_to_currency(@invoice.discounted_revenue) %></h5>
   <hr>

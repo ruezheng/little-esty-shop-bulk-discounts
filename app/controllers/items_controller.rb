@@ -17,7 +17,7 @@ class ItemsController < ApplicationController
     redirect_to merchant_items_path(@merchant)
   end
 
-  def update # refactor
+  def update # TODO: refactor
     if params[:status]
       @item.update(item_status_params)
       redirect_to merchant_items_path

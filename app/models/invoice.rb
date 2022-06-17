@@ -29,7 +29,7 @@ class Invoice < ApplicationRecord
     invoice_items.sum('invoice_items.unit_price * invoice_items.quantity')
   end
 
-  def discounted_revenue # put in invoice_items model
+  def discounted_revenue
     discount =
     invoice_items
     .joins(:discounts)
@@ -40,6 +40,8 @@ class Invoice < ApplicationRecord
 
     total_revenue - discount
   end
-
-  # sum discounted revenue
 end
+
+
+# put in invoice_items model
+ # sum discounted

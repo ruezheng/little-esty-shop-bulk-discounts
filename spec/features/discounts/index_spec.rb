@@ -9,7 +9,7 @@ RSpec.describe "merchant's bulk discounts index" do
     visit "/merchants/#{merchant1.id}/dashboard"
     allow(HolidayService).to receive(:find_holidays).and_return([{name: 'Juneteenth'}]) # example of stubbing instead of adding , :vcr
 
-    click_link "Bulk Discounts Index"
+    click_link "Bulk Discounts"
     expect(current_path).to eq("/merchants/#{merchant1.id}/discounts")
 
     within "#discount-#{discount1.id}" do
@@ -66,20 +66,6 @@ RSpec.describe "merchant's bulk discounts index" do
     expect(page).to_not have_content('20% Discount')
     expect(page).to_not have_content('Quantity: 10')
   end
-
-# Create a Holiday Discount
-#
-# As a merchant,
-# when I visit the discounts index page,
-# In the Holiday Discounts section, I see a `create discount` button next to each of the 3 upcoming holidays.
-# When I click on the button I am taken to a new discount form that has the form fields auto populated with the following:
-#
-# Discount name: <name of holiday> discount
-# Percentage Discount: 30
-# Quantity Threshold: 2
-#
-# I can leave the information as is, or modify it before saving.
-# I should be redirected to the discounts index page where I see the newly created discount added to the list of discounts.
 
   xit "next to each holiday I can see a button to create a new discount for that holiday", :vcr do
     holidays = HolidayFacade.get_holidays

@@ -23,7 +23,7 @@ class InvoiceItem < ApplicationRecord
   #   .order(percentage_discount: :desc).first
   # end
 
-  # add method that finds largest discount
-  # move disocunted_revenue
+  # TODO: add method that finds largest discount
+  # TODO: move disocunted_revenue
 
 end

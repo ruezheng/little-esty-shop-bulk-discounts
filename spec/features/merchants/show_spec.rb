@@ -85,11 +85,11 @@ RSpec.describe 'merchant dashboard show' do
   it "displays links to a merchant's items and invoices index pages" do
     visit "/merchants/#{merchant1.id}/dashboard"
 
-    click_link("Items Index")
+    click_link("Items")
     expect(current_path).to eq("/merchants/#{merchant1.id}/items")
 
     visit "/merchants/#{merchant1.id}/dashboard"
-    click_link("Invoices Index")
+    click_link("Invoices")
 
     expect(current_path).to eq("/merchants/#{merchant1.id}/invoices")
   end

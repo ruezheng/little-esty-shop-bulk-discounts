@@ -81,11 +81,11 @@ describe "Admin Dashboad" do
   end
 
   it "displays links to the admin merchants index and admin invoices index" do
-    click_link("Merchants Index")
+    click_link("Merchant")
     expect(current_path).to eq(admin_merchants_path)
 
     visit admin_index_path
-    click_link("Invoices Index")
+    click_link("Invoices")
     expect(current_path).to eq(admin_invoices_path)
   end
 
