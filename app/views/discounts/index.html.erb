@@ -6,7 +6,7 @@
 
     <div class="column" align="center";>
       <h1>Active Discounts</h1><hr>
-      <h5><%= link_to "Create a New Discount", new_merchant_discount_path(@merchant, @discount) %></h5><br>
+      <h5><%= link_to "Create New Discount", new_merchant_discount_path(@merchant, @discount), class: "btn btn-primary" %></h5><br>
 
       <% @discounts.each do |discount| %>
         <div id="discount-<%= discount.id %>">
@@ -26,15 +26,19 @@
     <br><hr><br>
 
     <div class="column" align="center";>
+
       <div class="next_holidays">
-        <h1>Upcoming Holidays</h1><hr>
+        <h1 class="display-5">Upcoming Holidays</h1><br>
         <% @holidays.each do |holiday| %>
-        <ol>
           <div id="holiday-<%= holiday.name %>">
-            <h3><%= holiday.name %></h3>
-            <h5><%= link_to "Create a Holiday Discount", new_merchant_discount_path(@merchant, name: holiday.name) %></h5><br>
           </div>
-        </ol>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><h3><%= holiday.name %></h3></h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <h5><%= link_to "Create Holiday Discount", new_merchant_discount_path(@merchant, name: holiday.name), class: "btn btn-primary" %></h5><br></a>
+              </div>
+            </div>
         <% end %>
       </div>
     </div>

@@ -45,10 +45,10 @@ RSpec.describe "merchant's bulk discounts index" do
     end
   end
 
-  it "has a link to create a new discount", :vcr do
+  it "has a link to Create New Discount", :vcr do
     visit "/merchants/#{merchant1.id}/discounts"
 
-    click_link "Create a New Discount"
+    click_link "Create New Discount"
 
     expect(current_path).to eq(new_merchant_discount_path(merchant1))
   end
