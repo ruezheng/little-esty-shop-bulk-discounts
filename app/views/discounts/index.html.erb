@@ -2,24 +2,41 @@
 
 <div class="container">
 
-  <h5><%= link_to "Create a New Discount", new_merchant_discount_path(@merchant, @discount) %></h5><br>
+  <div class="row">
 
-  <%= @discounts.each do |discount| %>
-  <div id="discount-<%= discount.id %>">
-    <h4><%= link_to "#{discount.percentage}% Discount", merchant_discount_path(@merchant, discount.id) %></h4>
-    <h5>Quantity: <%= discount.quantity_threshold %></h5>
-    <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete %><br>
-  </div>
-  <% end %>
+    <div class="column" align="center";>
+      <h1>Active Discounts</h1><hr>
+      <h5><%= link_to "Create a New Discount", new_merchant_discount_path(@merchant, @discount) %></h5><br>
 
-  <br><hr><br>
+      <% @discounts.each do |discount| %>
+        <div id="discount-<%= discount.id %>">
+          <% if discount.name != nil %>
+            <h4><%= link_to "#{discount.name} | #{discount.percentage}% Holiday Discount", merchant_discount_path(@merchant, discount.id) %></h4>
+            <h5>Quantity: <%= discount.quantity_threshold %></h5>
+            <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete %><br><br>
+          <% else %>
+            <h4><%= link_to "#{discount.percentage}% Discount", merchant_discount_path(@merchant, discount.id) %></h4>
+            <h5>Quantity: <%= discount.quantity_threshold %></h5>
+            <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete %><br><br>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
 
-  <div class="next_holidays"><br>
-    <hr><h3>Upcoming Holidays</h3><hr>
-    <% @holidays.each do |holiday| %>
-    <ol>
-      <h5><%= holiday.name %></h5>
-    </ol>
-    <% end %>
+    <br><hr><br>
+
+    <div class="column" align="center";>
+      <div class="next_holidays">
+        <h1>Upcoming Holidays</h1><hr>
+        <% @holidays.each do |holiday| %>
+        <ol>
+          <div id="holiday-<%= holiday.name %>">
+            <h3><%= holiday.name %></h3>
+            <h5><%= link_to "Create a Holiday Discount", new_merchant_discount_path(@merchant, name: holiday.name) %></h5><br>
+          </div>
+        </ol>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>

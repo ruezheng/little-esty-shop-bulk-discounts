@@ -7,19 +7,16 @@ class DiscountsController < ApplicationController
     @holidays = HolidayFacade.get_holidays
   end
 
-  def show
-  end
+  def show; end
 
-  def new
-  end
+  def new; end
 
   def create
     @merchant.discounts.create!(discount_params)
     redirect_to merchant_discounts_path(@merchant)
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     @discount.update(discount_params)
@@ -33,7 +30,7 @@ class DiscountsController < ApplicationController
 
   private
   def discount_params
-    params.permit(:percentage, :quantity_threshold)
+    params.permit(:name, :percentage, :quantity_threshold)
   end
 end
 

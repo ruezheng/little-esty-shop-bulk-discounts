@@ -41,3 +41,7 @@ class Invoice < ApplicationRecord
     total_revenue - discount
   end
 end
+
+
+# put in invoice_items model
+ # sum discounted

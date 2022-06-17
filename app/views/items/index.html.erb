@@ -1,17 +1,16 @@
 <%= render 'partials/navbar_merchant' %><br>
-<%= render 'partials/two_columns' %>
 
 <div class="container">
 
   <h1>Items Index</h1>
-  
+
   <p><%= link_to "Create A New Item", new_merchant_item_path(@merchant) %></p>
   <hr>
 
   <div class="row">
     <div class="column";>
       <div class="enabled-items">
-        <h3 style="text-align:center;">Status: Enabled</h3>
+        <h3 align="center";">Status: Enabled</h3>
         <ul><% @items.each do |item| %>
           <% if item.status == "enabled" %>
           <div id="item-<%= item.id %>">
@@ -25,7 +24,7 @@
       <hr><br>
 
     <div class="disabled-items">
-      <h3 style="text-align:center;">Status: Disabled</h3>
+      <h3 align="center";">Status: Disabled</h3>
       <ul><% @items.each do |item| %>
         <% if item.status == "disabled" %>
         <div id="item-<%= item.id %>">
@@ -40,7 +39,7 @@
 
     <div class="column";>
       <div class="top-5">
-        <h3 style="text-align:center;"> Top Five Most Popular Items: </h3>
+        <h3 align="center";"> Top Five Most Popular Items: </h3>
         <hr><br>
         <ol>
           <% @merchant.top_five_items.each do |item| %>
