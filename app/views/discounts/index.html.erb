@@ -2,37 +2,48 @@
 
 <div class="container">
 
-<h1 class="display-4" align="center">Active Discounts</h1><br>
-<h5><%= link_to "Create New Discount", new_merchant_discount_path(@merchant, @discount), class: "btn btn-primary" %></h5><br>
+<div align="center">
+  <h1 class="display-4">Active Discounts</h1><br>
+  <h5><%= link_to "Create New Discount", new_merchant_discount_path(@merchant, @discount), class: "btn btn-success" %></h5><br><br>
 
-<% @discounts.each do |discount| %>
-  <div id="discount-<%= discount.id %>">
-    <% if discount.name != nil %>
-      <h4><%= link_to "#{discount.name} | #{discount.percentage}% Holiday Discount", merchant_discount_path(@merchant, discount.id) %></h4>
-      <h5>Quantity: <%= discount.quantity_threshold %></h5>
-      <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete %><br><br>
-    <% else %>
-      <h4><%= link_to "#{discount.percentage}% Discount", merchant_discount_path(@merchant, discount.id) %></h4>
-      <h5>Quantity: <%= discount.quantity_threshold %></h5>
-      <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete %><br><br>
+  <div class="row">
+    <% @discounts.each do |discount| %>
+      <div id="discount-<%= discount.id %>">
+        <div class="col-sm-6" align="left">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <% if discount.name != nil %>
+                <h3 class="card-title"><%= link_to "#{discount.percentage}% Holiday Discount", merchant_discount_path(@merchant, discount.id), class: "card-title" %></h3>
+                <h5><%= discount.name %></h5>
+                <p class="card-text">Minimum Quantity: <%= discount.quantity_threshold %></p>
+                <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete, class: ["btn btn-outline-danger", "bottom"] %><br><br>
+              <% else %>
+                <h3 class="card-title"><%= link_to "#{discount.percentage}% Discount", merchant_discount_path(@merchant, discount.id) %></h3>
+                <p class="card-text">Minimum Quantity: <%= discount.quantity_threshold %></p><br>
+                <%= button_to "Remove Discount", merchant_discount_path(@merchant, discount.id), method: :delete, class: ["btn btn-outline-danger", "bottom"] %><br><br>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
     <% end %>
   </div>
-<% end %>
+</div>
 
-<br><br>
+<br><br><br><br><br>
 
 <div align="center">
   <div class="next_holidays">
-    <h1 class="display-4" align="center">Upcoming Holidays</h1><br><br>
+    <h1 class="display-4">Upcoming Holidays</h1><br><br>
       <div class="row">
         <% @holidays.each do |holiday| %>
           <div id="holiday-<%= holiday.name %>">
             <div class="col-sm-6" align="left">
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <h5 class="card-title"><h3><%= holiday.name %></h3></h5>
+                  <h3 class="card-title"><%= holiday.name %></h3>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <h5><%= link_to "Create Holiday Discount", new_merchant_discount_path(@merchant, name: holiday.name), class: "btn btn-primary" %></h5><br></a>
+                  <%= link_to "Create Holiday Discount", new_merchant_discount_path(@merchant, name: holiday.name), class: "btn btn-success" %><br>
                 </div>
               </div>
             </div>
