@@ -1,8 +1,9 @@
 <div align="center">
 
-# Little Esty Shop
+# Little Esty Shop   
 
-Little Esty Shop is a simple and user friendly ficticious e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
+
+Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
    
 #### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
 
@@ -11,37 +12,55 @@ Little Esty Shop is a simple and user friendly ficticious e-commerce platform bu
    
 ## Learning Goals
 
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write migrations to create tables and relationships between tables<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a many-to-many relationship database schema and defining model relationships<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality\<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced active record techniques to perform complex database queries<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Create instance and class methods on a Rails model that use ActiveRecord methods and helpers<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write model and feature tests that fully cover data logic and potential user behavior<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Implement a stylized user interface using Bootstrap, HTML, and CSS<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Implement CRUD functionality for a resource using forms (form_tag or form_with), buttons, and links<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Use MVC to organize code effectively, limiting the amount of logic included in views and controllers<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced active record methods to join multiple tables of data, make calculations, and group data<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write model tests that fully cover the data logic of the application<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write feature tests that fully cover the functionality of the application<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Implement a stylized user interface using Bootstrap, HTML, and CSS<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Organize and refactor code to be more maintainable<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku<br>
 
 
-## Requirements
-must use Rails 5.2.x
-must use PostgreSQL
-all code must be tested via feature tests and model tests, respectively
-must use GitHub branching, team code reviews via GitHub comments, and github projects to track progress on user stories
-must include a thorough README to describe the project
-must deploy completed code to Heroku
-
 ## Setup
 
-This project requires Ruby 2.7.4.
+Ruby 2.7.2
+Rails 5.2.6
 
-* Fork this repository
-* Clone your fork
-* From the command line, install gems and set up your DB:
-    * `bundle`
-    * `rails db:create`
-* Run the test suite with `bundle exec rspec`.
-* Run your development server with `rails s` to see the app in action.
+1. Clone this repository to your local using the SSH key:
+```
+$ git@github.com:ruezheng/little-esty-shop-bulk-discounts.git
+```
+
+2. From the command line, install gems using Bundler:
+```
+$ bundle install
+```
+
+3. Set up your DB:
+```
+$ rails db:{drop,create,migrate,seed}
+```
+
+4. Seed your development DB with data from CSV files:
+```
+rake csv_load:create
+```
+
+4. Run the test suite:
+```
+$ bundle exec rspec
+```
+
+5. Run your development server with `rails s`. In your browser, visit ['localhost:3000/`](http://localhost:3000/) to see the app in action.
+
+<br>
+At this point you should be taken to the welcome page. If you encounter any errors or have not reached the web-app, please confirm you followed the steps above and that your environment is properly set up.
 
 ## Phases
 
