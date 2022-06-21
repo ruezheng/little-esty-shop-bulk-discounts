@@ -1,13 +1,17 @@
 <%= render 'partials/navbar_admin' %><br>
 
+<div class="container">
+
 <div class="row">
-  <div class="column";>
+  <div class="column">
     <div class="incomplete-invoices">
-      <h3 align="center";"> Incomplete Invoices </h3>
-      <hr><br>
+      <h2>Incomplete Invoices:</h2><hr><br>
       <ul>
         <% @invoices.incomplete_invoices.each do |invoice| %>
-        <li><%= link_to "#{invoice.id}", admin_invoice_path(invoice) %> <i>Created on: <%= invoice.created_at.strftime("%A, %d %b %Y") %> </i></li>
+        <li>
+          <h5>Invoice #<%= link_to "#{invoice.id}", admin_invoice_path(invoice) %></h5>
+          <i>Created on: <%= invoice.created_at.strftime("%A, %d %b %Y") %></i>
+        </li>
         <% end %>
       </ul>
     </div>
@@ -15,13 +19,24 @@
 
   <div class="column">
     <div class="top-five-customers">
-      <h3 align="center";">Top Customers</h3>
-      <hr><br>
-      <ol>
+      <h2>Top 5 Favorite Customers:</h2><br>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <h5 class="lead "><strong>Name</strong></h5>
+            <span class="badge badge-primary badge-pill">Number of Successful Transactions</span>
+          </li>
+        </ul>
         <% @customers.top_customers.each do |customer| %>
-        <h5><li><%= "#{customer.first_name} #{customer.last_name}" %> - <%= customer.transaction_count %> purchases</li></h5><br>
+          <div id="customer-<%= customer.id %>">
+            <ol class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h5 class="lead"><%= "#{customer.first_name} #{customer.last_name}" %></h5>
+                <h5><span class="badge badge-primary badge-pill"><%= customer.transaction_count %></span></h5>
+              </li>
+            </ol>
+          </div>
         <% end %>
-      </ol>
+      </div>
     </div>
   </div>
 </div>
