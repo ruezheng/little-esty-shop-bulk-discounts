@@ -167,12 +167,12 @@ At this point you should be taken to the welcome page seen above. If you encount
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </p>
  
-
-This [Repository](https://github.com/ruezheng/little-esty-shop-bulk-discounts):
+   
+[This Repository](https://github.com/ruezheng/little-esty-shop-bulk-discounts):
 
 - Author: [Rue Zheng](https://github.com/ruezheng)
 
-Original Little Esty Shop [Repository](https://github.com/ruezheng/little-esty-shop):
+[Original Little Esty Shop Repository](https://github.com/ruezheng/little-esty-shop):
 
 - Co-Author: [Rue Zheng](https://github.com/ruezheng)
 - Co-Author: [Jennifer Halloran](https://github.com/jenniferhalloran)
