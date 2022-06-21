@@ -5,7 +5,7 @@
 - [Learning Goals](#learning-goals)
 - [Features Implemented](#features-implemented)
 - [Installation](#installation)
-- [User Stories](#user-stories)
+- [Phases](#phases)
 - [Tech Stack](#tech-stack)
 - [Database Diagram](#database-diagram)
 - [Contributors](#contributors)
@@ -94,7 +94,7 @@ At this point you should be taken to the welcome page seen above. If you encount
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## User Stories
+## Phases
 
 - Little Esty Shop [User Stories](./doc/user_stories.md)<br>
 - Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
@@ -168,7 +168,7 @@ At this point you should be taken to the welcome page seen above. If you encount
 </p>
  
 
-This Repository:
+This [Repository](https://github.com/ruezheng/little-esty-shop-bulk-discounts):
 
 - Author: [Rue Zheng](https://github.com/ruezheng)
 
