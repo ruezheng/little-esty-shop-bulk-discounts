@@ -1,5 +1,7 @@
-<div align="center">
+<img width="1167" alt="Screen Shot 2022-06-21 at 12 38 50 AM" src="https://user-images.githubusercontent.com/99001315/174732942-020941fb-d9ce-427a-a8b8-937b5b06f788.png">
 
+
+   
 # Little Esty Shop   
 
 
@@ -7,7 +9,6 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
    
 #### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
 
-</div>
 
    
 ## Learning Goals
@@ -27,14 +28,15 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku
 
 
+
 ## Setup Instructions
 
 Ruby 2.7.2 <br>
 Rails 5.2.6
 
-1. Clone this repository to your local using the SSH key:
+1. Clone this directory to your local repository using the SSH key:
 ```
-$ git@github.com:ruezheng/little-esty-shop-bulk-discounts.git
+$ git clone git@github.com:ruezheng/little-esty-shop-bulk-discounts.git
 ```
 
 2. From the command line, install gems using Bundler:
@@ -52,27 +54,29 @@ $ rails db:{drop,create,migrate,seed}
 rake csv_load:create
 ```
 
-4. Run the test suite with:
+5. Run the test suite with:
 ```
 $ bundle exec rspec
 ```
 
-5. Run your development server with 
+6. Run your development server with:
 ```
 $ rails s
 ```
 
-6. In your browser, visit ['localhost:3000/`](http://localhost:3000/) to see the app in action.
+7. In your browser, visit ['localhost:3000/`](http://localhost:3000/) to see the app in action.
 
 <br>
 
 At this point you should be taken to the welcome page. If you encounter any errors, please confirm you followed the steps above and that your environment is properly set up.
 
 
+
 ## User Stories
 
-Little Esty Shop [User Stories](./doc/user_stories.md)
-Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
+- Little Esty Shop [User Stories](./doc/user_stories.md)<br>
+- Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
+
 
 
 ## Tech Stack
@@ -126,6 +130,7 @@ Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_d
   <img src="https://img.shields.io/badge/MVC-b8b018.svg?&style=for-the-badge&logo=MVC&logoColor=white" />
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=for-the-badge&logo=REST&logoColor=white" />  
 </p>
+
 
 
 ## Database Diagram
