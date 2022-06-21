@@ -71,8 +71,8 @@ At this point you should be taken to the welcome page. If you encounter any erro
 
 ## User Stories
 
-1. Little Esty Shop [User Stories](./doc/user_stories.md)
-2. Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
+Little Esty Shop [User Stories](./doc/user_stories.md)
+Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
 
 
 ## Tech Stack
