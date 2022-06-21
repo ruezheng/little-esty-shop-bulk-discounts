@@ -90,7 +90,7 @@ $ rails s
 
 <br>
 
-At this point you should be taken to the welcome page. If you encounter any errors, please confirm you followed the steps above and that your environment is properly set up.
+At this point you should be taken to the welcome page seen above. If you encounter any errors, please confirm you followed the steps above and that your environment is properly set up.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
