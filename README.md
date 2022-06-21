@@ -27,15 +27,15 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 <br>
 
 
-## Examples of Features Implemented
-
-<img width="1437" alt="Screen Shot 2022-06-21 at 12 55 16 AM" src="https://user-images.githubusercontent.com/99001315/174735758-3ccef547-33d2-4b79-b2ea-035f2b7879cc.png">
+## Features Implemented
 
 A merchant's index page displays the Top 5 Favorite Customers who have conducted the largest number of successful transactions with that merchant.
 
-<img width="1435" alt="Screen Shot 2022-06-21 at 12 58 20 AM" src="https://user-images.githubusercontent.com/99001315/174736280-7dcacab3-1fad-4222-996b-73857c8b293a.png">
+<img width="1437" alt="Screen Shot 2022-06-21 at 12 55 16 AM" src="https://user-images.githubusercontent.com/99001315/174735758-3ccef547-33d2-4b79-b2ea-035f2b7879cc.png">
 
 Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed followng facades, poros, services framework structure.
+
+<img width="1435" alt="Screen Shot 2022-06-21 at 12 58 20 AM" src="https://user-images.githubusercontent.com/99001315/174736280-7dcacab3-1fad-4222-996b-73857c8b293a.png">
 
 
 
@@ -147,3 +147,21 @@ At this point you should be taken to the welcome page. If you encounter any erro
 
 <img width="1121" alt="Screen Shot 2022-06-12 at 4 53 03 PM" src="https://user-images.githubusercontent.com/99001315/173256799-42408dcb-aff3-4c13-87bf-a91c7e163e16.png">
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contributors
+
+This Repository:
+
+- Author: [Rue Zheng](https://github.com/ruezheng)
+
+Original Little Esty Shop [Repository](https://github.com/ruezheng/little-esty-shop):
+
+- Co-Author: [Rue Zheng](https://github.com/ruezheng)
+- Co-Author: [Jennifer Halloran](https://github.com/jenniferhalloran)
+- Co-Author: [Zachary Hazelwood](https://github.com/ZacHazelwood)
+- Co-Author: [Eric Espendola Chavez](https://github.com/erock02)
+
+<p>
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</p>
