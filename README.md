@@ -11,8 +11,8 @@ Little Esty Shop is a simple and user friendly ficticious e-commerce platform bu
    
 ## Learning Goals
 
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a normalized database schema and defining model relationships<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality together<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice designing a many-to-many relationship database schema and defining model relationships<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality\<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced active record techniques to perform complex database queries<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Create instance and class methods on a Rails model that use ActiveRecord methods and helpers<br>
