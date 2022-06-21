@@ -29,7 +29,7 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 
 ## Setup Instructions
 
-Ruby 2.7.2
+Ruby 2.7.2 <br>
 Rails 5.2.6
 
 1. Clone this repository to your local using the SSH key:
@@ -66,10 +66,10 @@ $ rails s
 
 <br>
 
-At this point you should be taken to the welcome page. If you encounter any errors or have not reached the web-app, please confirm you followed the steps above and that your environment is properly set up.
+At this point you should be taken to the welcome page. If you encounter any errors, please confirm you followed the steps above and that your environment is properly set up.
 
 
-## Phases
+## User Stories
 
 1. Little Esty Shop [User Stories](./doc/user_stories.md)
 2. Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
