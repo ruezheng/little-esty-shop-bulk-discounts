@@ -7,22 +7,22 @@
   <div class="row">
     <div class="column";>
       <div class="enabled-merchants">
-        <h3> Status: Enabled </h3>
+        <h2> Status: Enabled </h2>
         <ul><% @enabled_merchants.each do |merchant| %>
           <div id="enabled-merchants-<%= merchant.id %>">
-          <li><%= link_to "#{merchant.name}", admin_merchant_path(merchant) %>
-          <%= button_to "Disable", admin_merchant_path(merchant), method: :patch, params: { status: 'disabled' }, class: "btn btn-primary btn-sm active" %></li>
+          <li><h4><%= link_to "#{merchant.name}", admin_merchant_path(merchant) %></h4>
+          <%= button_to "Disable", admin_merchant_path(merchant), method: :patch, params: { status: 'disabled' }, class: "btn btn-danger btn-sm" %></li><br>
           </div>
         <% end %></ul>
       </div>
       <hr><br>
 
       <div class="disabled-merchants">
-        <h3> Status: Disabled </h3>
+        <h2> Status: Disabled </h2>
         <ul><% @disabled_merchants.each do |merchant| %>
           <div id="disabled-merchants-<%= merchant.id %>">
-          <li><%= link_to "#{merchant.name}", admin_merchant_path(merchant) %>
-          <%= button_to "Enable", admin_merchant_path(merchant), method: :patch, params: { status: 'enabled' }, class: "btn btn-primary btn-sm active" %></li>
+          <li><h4><%= link_to "#{merchant.name}", admin_merchant_path(merchant) %></h4>
+          <%= button_to "Enable", admin_merchant_path(merchant), method: :patch, params: { status: 'enabled' }, class: "btn btn-success btn-sm" %></li><br>
           </div>
         <% end %></ul>
       </div>
@@ -30,7 +30,7 @@
 
     <div class="column">
       <div id="top-five-merchants">
-        <h3 align="center";">Top 5 Merchants</h3>
+        <h2>Top 5 Merchants:</h2><br>
         <hr><br>
         <ol>
           <% @merchants.top_five_merchants_by_revenue.each do |merchant| %>

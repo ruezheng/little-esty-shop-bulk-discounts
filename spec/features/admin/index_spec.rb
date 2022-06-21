@@ -117,11 +117,16 @@ describe "Admin Dashboad" do
       expect("Carl Junior").to appear_before("Tony Bologna")
       expect("Tony Bologna").to appear_before("Sylvester Nader")
 
-      expect(page).to have_content("Leanne Braun - 6 purchases")
-      expect(page).to have_content("Mariah Toy - 5 purchases")
-      expect(page).to have_content("Carl Junior - 4 purchases")
-      expect(page).to have_content("Tony Bologna - 3 purchases")
-      expect(page).to have_content("Sylvester Nader - 2 purchases")
+      expect(page).to have_content("Leanne Braun")
+      expect(page).to have_content("6")
+      expect(page).to have_content("Mariah Toy")
+      expect(page).to have_content("5")
+      expect(page).to have_content("Carl Junior")
+      expect(page).to have_content("4")
+      expect(page).to have_content("Tony Bologna")
+      expect(page).to have_content("3")
+      expect(page).to have_content("Sylvester Nader")
+      expect(page).to have_content("2")
     end
   end
 end
