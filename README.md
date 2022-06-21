@@ -14,7 +14,7 @@
 
 # Little Esty Shop
 
-Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
+Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, add bulk discounts, and manage their accounts.
    
 #### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
 
@@ -41,9 +41,7 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 
 ## Features Implemented
 
-A merchant's index page displays the Top 5 Favorite Customers who have conducted the largest number of successful transactions with that merchant.
 
-<img width="1437" alt="Screen Shot 2022-06-21 at 12 55 16 AM" src="https://user-images.githubusercontent.com/99001315/174735758-3ccef547-33d2-4b79-b2ea-035f2b7879cc.png">
 
 Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed followng facades, poros, services framework structure.
 
