@@ -50,7 +50,7 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 <br>
 
 - Merchant Dashboard
-   - Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed followng facades, poros, services framework structure.
+   - Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed following facades, poros, services framework structure.
 
 - API Consumption
    - Next Public Holidays:
