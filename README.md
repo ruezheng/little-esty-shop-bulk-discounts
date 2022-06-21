@@ -186,8 +186,8 @@ At this point you should be taken to the welcome page seen above. If you encount
 [Original Little Esty Shop Repository](https://github.com/ruezheng/little-esty-shop):
 
 - Co-Author: [Rue Zheng](https://github.com/ruezheng)
-- Co-Author: [Jennifer Halloran](https://github.com/jenniferhalloran)
-- Co-Author: [Zachary Hazelwood](https://github.com/ZacHazelwood)
+- Co-Author: [Jenn Halloran](https://github.com/jenniferhalloran)
+- Co-Author: [Zac Hazelwood](https://github.com/ZacHazelwood)
 - Co-Author: [Eric Espendola Chavez](https://github.com/erock02)
 
 <p>
