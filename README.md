@@ -1,13 +1,7 @@
 <img width="1092" alt="Screen Shot 2022-06-21 at 12 45 49 AM" src="https://user-images.githubusercontent.com/99001315/174734119-3dd30157-154a-49c3-9d32-4ed86a149d7f.png">
 
-# Little Esty Shop
-
-Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
-   
-#### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
-
 ### Table of Contents
-- [About This App](#little-esty-shop)
+- [View Deloyed Site](#little-esty-shop)
 - [Learning Goals](#learning-goals)
 - [Features Implemented](#features-implemented)
 - [Installation](#installation)
@@ -15,9 +9,17 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 - [Tech Stack](#tech-stack)
 - [Database Diagram](#database-diagram)
 - [Contributors](#contributors)
-  
+
+
+
+# Little Esty Shop
+
+Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
+   
+#### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
-  
+
 ## Learning Goals
 
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write migrations to create tables and relationships between tables<br>
