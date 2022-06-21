@@ -5,7 +5,7 @@
 - [Learning Goals](#learning-goals)
 - [Features Implemented](#features-implemented)
 - [Installation](#installation)
-- [Phases](#phases)
+- [User Stories](#phases)
 - [Tech Stack](#tech-stack)
 - [Database Diagram](#database-diagram)
 - [Contributors](#contributors)
@@ -41,9 +41,22 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 
 ## Features Implemented
 
+- Admin Merchants Index Page
+   - Users can manage merchant accounts by enabling or disabling a merchant, update a merchant's information, and activate a merchant's items availability for sale.
+   - Users can view the Top 5 Customers statistics based on the largest number of successful transactions they have conducted.
 
+<img width="1421" alt="Screen Shot 2022-06-21 at 8 43 04 AM" src="https://user-images.githubusercontent.com/99001315/174828069-a453c3c3-4835-4a2f-93f6-8582dd25730b.png">
 
-Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed followng facades, poros, services framework structure.
+<br>
+
+- Merchant Dashboard
+   - Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed followng facades, poros, services framework structure.
+
+- API Consumption
+   - Next Public Holidays:
+      ```
+      https://date.nager.at/api/v3/NextPublicHolidays/us
+      ```
 
 <img width="1435" alt="Screen Shot 2022-06-21 at 12 58 20 AM" src="https://user-images.githubusercontent.com/99001315/174736280-7dcacab3-1fad-4222-996b-73857c8b293a.png">
 
