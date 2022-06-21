@@ -59,7 +59,7 @@ $ bundle exec rspec
 
 5. Run your development server with 
 ```
-rails s
+$ rails s
 ```
 
 6. In your browser, visit ['localhost:3000/`](http://localhost:3000/) to see the app in action.
