@@ -1,14 +1,23 @@
 <img width="1092" alt="Screen Shot 2022-06-21 at 12 45 49 AM" src="https://user-images.githubusercontent.com/99001315/174734119-3dd30157-154a-49c3-9d32-4ed86a149d7f.png">
 
-
 # Little Esty Shop
 
 Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
    
 #### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
 
-
-   
+### Table of Contents
+[About This App](#little-esty-shop)
+[Learning Goals](#learning-goals)
+[Features Implemented](#features-implemented)
+[Installation](#installation)
+[User Stories](#user-stories)
+[Tech Stack](#tech-stack)
+[Database Diagram](#database-diagram)
+[Contributors](#contributors)
+  
+<p align="right">(<a href="#top">back to top</a>)</p>
+  
 ## Learning Goals
 
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Write migrations to create tables and relationships between tables<br>
@@ -26,6 +35,7 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku
 <br>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Features Implemented
 
@@ -37,7 +47,7 @@ Users can create, modify, and delete discounts for the next three holidays. Nati
 
 <img width="1435" alt="Screen Shot 2022-06-21 at 12 58 20 AM" src="https://user-images.githubusercontent.com/99001315/174736280-7dcacab3-1fad-4222-996b-73857c8b293a.png">
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Installation
 
@@ -80,14 +90,14 @@ $ rails s
 
 At this point you should be taken to the welcome page. If you encounter any errors, please confirm you followed the steps above and that your environment is properly set up.
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## User Stories
 
 - Little Esty Shop [User Stories](./doc/user_stories.md)<br>
 - Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Tech Stack
 
@@ -141,7 +151,7 @@ At this point you should be taken to the welcome page. If you encounter any erro
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=for-the-badge&logo=REST&logoColor=white" />  
 </p>
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Database Diagram
 
@@ -150,6 +160,9 @@ At this point you should be taken to the welcome page. If you encounter any erro
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributors
+<p>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" href="https://www.linkedin.com/in/ruezheng/"/>
+</p>
 
 This Repository:
 
@@ -165,3 +178,5 @@ Original Little Esty Shop [Repository](https://github.com/ruezheng/little-esty-s
 <p>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
