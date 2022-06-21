@@ -24,10 +24,10 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Organize and refactor code to be more maintainable<br>
-&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku<br>
+&nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku
 
 
-## Setup
+## Setup Instructions
 
 Ruby 2.7.2
 Rails 5.2.6
@@ -42,7 +42,7 @@ $ git@github.com:ruezheng/little-esty-shop-bulk-discounts.git
 $ bundle install
 ```
 
-3. Set up your DB:
+3. Set up your DB with:
 ```
 $ rails db:{drop,create,migrate,seed}
 ```
@@ -52,23 +52,27 @@ $ rails db:{drop,create,migrate,seed}
 rake csv_load:create
 ```
 
-4. Run the test suite:
+4. Run the test suite with:
 ```
 $ bundle exec rspec
 ```
 
-5. Run your development server with `rails s`. In your browser, visit ['localhost:3000/`](http://localhost:3000/) to see the app in action.
+5. Run your development server with 
+```
+rails s
+```
+
+6. In your browser, visit ['localhost:3000/`](http://localhost:3000/) to see the app in action.
 
 <br>
+
 At this point you should be taken to the welcome page. If you encounter any errors or have not reached the web-app, please confirm you followed the steps above and that your environment is properly set up.
+
 
 ## Phases
 
-1. [Database Setup](./doc/db_setup.md)
-1. [User Stories](./doc/user_stories.md)
-1. [Extensions](./doc/extensions.md)
-1. [Evaluation](./doc/evaluation.md)
-1. [Bulk Discounts](https://backend.turing.edu/module2/projects/bulk_discounts)
+1. Little Esty Shop [User Stories](./doc/user_stories.md)
+2. Bulk Discounts [User Stories](https://backend.turing.edu/module2/projects/bulk_discounts)
 
 
 ## Tech Stack
@@ -78,7 +82,7 @@ At this point you should be taken to the welcome page. If you encounter any erro
   <img src="https://img.shields.io/badge/ruby%20on%20rails-b81818.svg?&style=for-the-badge&logo=rubyonrails&logoColor=white" />
 </p>
 
-### Programming Languages
+### Languages
 <p>
   <img src="https://img.shields.io/badge/ruby-CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4169E1.svg?style=for-the-badge&logo=SQL&logoColor=white" />
