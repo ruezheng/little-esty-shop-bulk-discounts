@@ -1,9 +1,7 @@
-<img width="1167" alt="Screen Shot 2022-06-21 at 12 38 50 AM" src="https://user-images.githubusercontent.com/99001315/174732942-020941fb-d9ce-427a-a8b8-937b5b06f788.png">
+<img width="1092" alt="Screen Shot 2022-06-21 at 12 45 49 AM" src="https://user-images.githubusercontent.com/99001315/174734119-3dd30157-154a-49c3-9d32-4ed86a149d7f.png">
 
 
-   
-# Little Esty Shop   
-
+# Little Esty Shop
 
 Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, and manage their accounts. The Bulk Discounts extension consisted of adding functionality for merchants to create bulk discounts for their items.
    
@@ -26,10 +24,22 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Utilize advanced routing techniques including namespacing to organize and group like functionality<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Organize and refactor code to be more maintainable<br>
 &nbsp; &nbsp; ⭐ &nbsp; &nbsp; Deploy to Heroku
+<br>
+
+
+## Examples of Features Implemented
+
+<img width="1437" alt="Screen Shot 2022-06-21 at 12 55 16 AM" src="https://user-images.githubusercontent.com/99001315/174735758-3ccef547-33d2-4b79-b2ea-035f2b7879cc.png">
+
+A merchant's index page displays the Top 5 Favorite Customers who have conducted the largest number of successful transactions with that merchant.
+
+<img width="1435" alt="Screen Shot 2022-06-21 at 12 58 20 AM" src="https://user-images.githubusercontent.com/99001315/174736280-7dcacab3-1fad-4222-996b-73857c8b293a.png">
+
+Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed followng facades, poros, services framework structure.
 
 
 
-## Setup Instructions
+## Installation
 
 Ruby 2.7.2 <br>
 Rails 5.2.6
