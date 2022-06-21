@@ -162,7 +162,7 @@ At this point you should be taken to the welcome page. If you encounter any erro
 ## Contributors
 <p>
   <a href="https://www.linkedin.com/in/ruezheng/">
-     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </p>
  
 
@@ -178,6 +178,7 @@ Original Little Esty Shop [Repository](https://github.com/ruezheng/little-esty-s
 - Co-Author: [Eric Espendola Chavez](https://github.com/erock02)
 
 <p>
+  <a href="https://github.com/ruezheng/little-esty-shop">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
