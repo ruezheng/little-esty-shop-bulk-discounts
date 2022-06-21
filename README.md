@@ -7,14 +7,14 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 #### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
 
 ### Table of Contents
-[About This App](#little-esty-shop)
-[Learning Goals](#learning-goals)
-[Features Implemented](#features-implemented)
-[Installation](#installation)
-[User Stories](#user-stories)
-[Tech Stack](#tech-stack)
-[Database Diagram](#database-diagram)
-[Contributors](#contributors)
+- [About This App](#little-esty-shop)
+- [Learning Goals](#learning-goals)
+- [Features Implemented](#features-implemented)
+- [Installation](#installation)
+- [User Stories](#user-stories)
+- [Tech Stack](#tech-stack)
+- [Database Diagram](#database-diagram)
+- [Contributors](#contributors)
   
 <p align="right">(<a href="#top">back to top</a>)</p>
   
@@ -161,8 +161,10 @@ At this point you should be taken to the welcome page. If you encounter any erro
 
 ## Contributors
 <p>
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" href="https://www.linkedin.com/in/ruezheng/"/>
+  <a href="https://www.linkedin.com/in/ruezheng/">
+     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </p>
+ 
 
 This Repository:
 
