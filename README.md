@@ -1,6 +1,18 @@
-<img width="1092" alt="Screen Shot 2022-06-21 at 12 45 49 AM" src="https://user-images.githubusercontent.com/99001315/174734119-3dd30157-154a-49c3-9d32-4ed86a149d7f.png">
+<img width="952" alt="Screen Shot 2022-06-22 at 12 35 52 PM" src="https://user-images.githubusercontent.com/99001315/175101429-ec1315d2-89ab-405c-9805-405260fa14bb.png">
 
-### Table of Contents
+
+# Little Esty Shop
+
+Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, add bulk discounts, and manage their accounts.
+   
+#### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
+
+   
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+## Table of Contents
 - [View Deloyed Site](#little-esty-shop)
 - [Learning Goals](#learning-goals)
 - [Features Implemented](#features-implemented)
@@ -10,15 +22,6 @@
 - [Database Diagram](#database-diagram)
 - [Contributors](#contributors)
 
-
-
-# Little Esty Shop
-
-Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, add bulk discounts, and manage their accounts.
-   
-#### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Learning Goals
 
