@@ -22,6 +22,8 @@ Little Esty Shop is a simple and user friendly e-commerce platform built with Ru
 - [Database Diagram](#database-diagram)
 - [Contributors](#contributors)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## Learning Goals
 
