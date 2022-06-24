@@ -75,7 +75,7 @@ Rails 5.2.6
 $ git clone git@github.com:ruezheng/little-esty-shop-bulk-discounts.git
 ```
 
-2. From the command line, install gems using Bundler:
+2. Install gems for development using [Bundler](https://bundler.io/guides/using_bundler_in_applications.html#getting-started---installing-bundler-and-bundle-init):
 ```
 $ bundle install
 ```
