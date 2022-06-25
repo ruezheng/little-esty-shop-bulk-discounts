@@ -3,13 +3,11 @@
 
 # Little Esty Shop
 
-Little Esty Shop is a simple and user friendly e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, add bulk discounts, and manage their accounts.
+Little Esty Shop is a simple e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, add bulk discounts, and manage their accounts.
    
 #### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
 
-   
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ## Table of Contents
