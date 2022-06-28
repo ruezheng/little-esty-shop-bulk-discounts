@@ -1,13 +1,12 @@
-<img width="952" alt="Screen Shot 2022-06-22 at 12 35 52 PM" src="https://user-images.githubusercontent.com/99001315/175101429-ec1315d2-89ab-405c-9805-405260fa14bb.png">
-
-
 # Little Esty Shop
 
-Little Esty Shop is a simple e-commerce platform built with Ruby on Rails that allows admin users and merchants to track customer invoices, view sales data, add bulk discounts, and manage their accounts.
-   
-#### [View Deployed Site Here](https://little-esty-shop-rz.herokuapp.com/)
+### [View the Deployed Site](https://little-esty-shop-rz.herokuapp.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+**Little Esty Shop** is a simple e-commerce platform built with **Ruby on Rails** that allows admin and merchant users to track customer invoices, view sales data, and manage their accounts. It utilizes a **PostgreSQL** database to store its relational data.
+
+<br>
+
+<img width="952" alt="Screen Shot 2022-06-22 at 12 35 52 PM" src="https://user-images.githubusercontent.com/99001315/175101429-ec1315d2-89ab-405c-9805-405260fa14bb.png">
 
 
 ## Table of Contents
@@ -42,24 +41,26 @@ Little Esty Shop is a simple e-commerce platform built with Ruby on Rails that a
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Features Implemented
+## Key Features
 
-- Admin Merchants Index Page
-   - Users can manage merchant accounts by enabling or disabling a merchant, update a merchant's information, and activate a merchant's items availability for sale.
-   - Users can view the Top 5 Customers statistics based on the largest number of successful transactions they have conducted.
+**Admin Merchants Index Page**
+  - Users can manage merchant accounts by enabling or disabling a merchant, update a merchant's information, and activate a merchant's items availability for sale.
+  - The Top 5 Merchants statistics are displayed in descending order of the merchants with the highest total revenue and their Top Selling Date.
+
 
 <img width="1421" alt="Screen Shot 2022-06-21 at 8 43 04 AM" src="https://user-images.githubusercontent.com/99001315/174828069-a453c3c3-4835-4a2f-93f6-8582dd25730b.png">
 
 <br>
 
-- Merchant Dashboard
-   - Users can create, modify, and delete discounts for the next three holidays. National US Holidays API consumed following facades, poros, services framework structure.
+**Merchant Dashboard**
+  - Users are able to create, modify, and delete discounts for the next three upcoming holidays.
+  - As the date changes, the holidays displayed will get updated automatically and send the next three US holidays from the Next Public Holidays API.
 
-- API Consumption
-   - Next Public Holidays:
-      ```
-      https://date.nager.at/api/v3/NextPublicHolidays/us
-      ```
+**API Consumption**
+  - Next Public Holidays API consumed following a facades, poros, services framework structure.
+     ```
+     https://date.nager.at/api/v3/NextPublicHolidays/us
+     ```
 
 <img width="1435" alt="Screen Shot 2022-06-21 at 12 58 20 AM" src="https://user-images.githubusercontent.com/99001315/174736280-7dcacab3-1fad-4222-996b-73857c8b293a.png">
 
