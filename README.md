@@ -68,8 +68,8 @@
 
 ## Installation
 
-Ruby 2.7.2 <br>
-Rails 5.2.6
+Ruby Version 2.7.2 <br>
+Rails Version 5.2.6
 
 1. Clone this directory to your local repository using the SSH key:
 ```
