@@ -45,7 +45,7 @@
 
 **Admin Merchants Index Page**
   - Users can manage merchant accounts by enabling or disabling a merchant, update a merchant's information, and activate a merchant's items availability for sale.
-  - The Top 5 Merchants statistics are displayed in descending order of the merchants with the highest total revenue and their Top Selling Date.
+  - Top 5 Merchants statistics are displayed in descending order of the merchants with the highest total revenue and their Top Selling Date.
 
 
 <img width="1421" alt="Screen Shot 2022-06-21 at 8 43 04 AM" src="https://user-images.githubusercontent.com/99001315/174828069-a453c3c3-4835-4a2f-93f6-8582dd25730b.png">
