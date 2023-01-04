@@ -1,6 +1,6 @@
-class HolidayFacade # abstracts from the controller and instantiates a service and maps a response from a service
-  # instantiate class with class methods
+class HolidayFacade # abstracts from the controller and instantiates a poro and maps a response from a service. Facades are like the controllers butler, does all the heavy lifting so the controller can stay simple and just direct traffic. 
 
+  # instantiate class with class methods
 
 # don't use class methods in facade - lose the advantage of oop when using class methods
 

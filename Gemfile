@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faraday'
 gem 'standardrb'
+gem 'rubocop', '~> 1.31', '>= 1.31.1'
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 
 group :development, :test do

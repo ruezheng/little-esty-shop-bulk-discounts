@@ -14,6 +14,7 @@ RSpec.describe "new admin merchant creation" do
     it "renders the new merchant form" do
       expect(page).to have_content('New Merchant')
       expect(find('form')).to have_content('Name')
+      save_and_open_page
     end
   end
 
